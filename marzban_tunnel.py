@@ -39,7 +39,10 @@ async def create_user(username: str, data_limit_gb: int, duration_days: int) -> 
     data_limit_bytes = data_limit_gb * 1024 * 1024 * 1024
     payload = {
         "username": username,
-        "proxies": {"vless": {}},
+        "proxies": {
+            "vless": {},
+            "shadowsocks": {}
+        },
         "inbounds": {},
         "expire": expire_timestamp,
         "data_limit": data_limit_bytes,
