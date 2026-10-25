@@ -1,7 +1,7 @@
 import os
 # ===== تنظیمات اصلی ربات =====
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8791109845:AAH8bIrvVMKbiY8r16h3go7gXxycdwQSi3g")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8989090983:AAGm8EJOtzU8w6qmyhb3rUDAXdcdDqmIoPI")
 # اطلاعات ادمین پنل مرزبان
 PANEL_URL = os.getenv("PANEL_URL", "https://fardad.marzgozari.com")
 PANEL_USERNAME = os.getenv("PANEL_USERNAME", "Fardad0@")
