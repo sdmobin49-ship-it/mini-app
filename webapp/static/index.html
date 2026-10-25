@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="color-scheme" content="dark">
+<title>Spider VPN</title>
+<link rel="stylesheet" href="/static/app.css?v=1">
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient></defs></svg>
+<div id="offline" class="offline" hidden>اتصال اینترنت قطع است…</div>
+<header class="top" id="top"></header>
+<main id="view" aria-live="polite"></main>
+<nav class="nav" id="nav">
+  <a href="#/" data-r="home"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg><span>خانه</span></a>
+  <a href="#/shop" data-r="shop"><svg viewBox="0 0 24 24"><path d="M6 6h15l-2 9H8zM6 6L5 3H2M9 20a1 1 0 1 0 0-.01M18 20a1 1 0 1 0 0-.01"/></svg><span>خرید</span></a>
+  <a href="#/services" data-r="services"><svg viewBox="0 0 24 24"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/></svg><span>سرویس‌ها</span></a>
+  <a href="#/account" data-r="account"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>حساب</span></a>
+  <a href="#/support" data-r="support"><svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg><span>پشتیبانی</span></a>
+</nav>
+<div id="sheet-root"></div>
+<div id="toast" class="toast" role="status"></div>
+<script src="/static/app.js?v=1"></script>
+</body>
+</html>
