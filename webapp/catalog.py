@@ -10,7 +10,7 @@ SERVICE_TYPES = ("cdn", "tunnel", "unlimited")
 
 # پروتکل‌ها دقیقاً همان‌هایی‌اند که Adapterهای پنل هنگام ساخت کاربر می‌فرستند:
 # marzban.py → vless+shadowsocks | marzban_tunnel.py → vless | marzban_unlimited.py → vless+shadowsocks
-PROTOCOLS = {"cdn": ["vless", "shadowsocks"], "tunnel": ["vless"], "unlimited": ["vless", "shadowsocks"]}
+PROTOCOLS = {"cdn": ["vless", "shadowsocks"], "tunnel": ["vless", "shadowsocks"], "unlimited": ["vless", "shadowsocks"]}
 
 TYPE_META = {
     "cdn": {"title": "سرویس حجمی عادی (CDN)", "kind": "volume"},
